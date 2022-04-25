@@ -6,9 +6,7 @@ namespace GradeBook
     {
         static void Main(string[] args)
         {
-            Console.WriteLine($"Hello, {args[1]}!");
+            Console.WriteLine($"Hello, {args[0]}!");
         }
     }
 }
-
-// comment
