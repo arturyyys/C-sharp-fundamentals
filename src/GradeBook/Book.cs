@@ -1,7 +1,4 @@
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace GradeBook
 {
@@ -9,7 +6,8 @@ namespace GradeBook
     {
         public void AddGrade(double grade)
         {
-
+            grades.Add(grade);
         }
+        List<double> grades;
     }
 }
