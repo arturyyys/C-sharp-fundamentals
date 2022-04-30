@@ -97,3 +97,9 @@ C:\Users\artur\gradebook\test\GradeBook.Tests\obj\Debug\net6.0\refint\GradeBook.
 C:\Users\artur\gradebook\test\GradeBook.Tests\obj\Debug\net6.0\GradeBook.Tests.pdb
 C:\Users\artur\gradebook\test\GradeBook.Tests\obj\Debug\net6.0\GradeBook.Tests.genruntimeconfig.cache
 C:\Users\artur\gradebook\test\GradeBook.Tests\obj\Debug\net6.0\ref\GradeBook.Tests.dll
+C:\Users\artur\gradebook\test\GradeBook.Tests\bin\Debug\net6.0\CoverletSourceRootsMapping
+C:\Users\artur\gradebook\test\GradeBook.Tests\bin\Debug\net6.0\GradeBook.deps.json
+C:\Users\artur\gradebook\test\GradeBook.Tests\bin\Debug\net6.0\GradeBook.runtimeconfig.json
+C:\Users\artur\gradebook\test\GradeBook.Tests\bin\Debug\net6.0\GradeBook.exe
+C:\Users\artur\gradebook\test\GradeBook.Tests\bin\Debug\net6.0\GradeBook.dll
+C:\Users\artur\gradebook\test\GradeBook.Tests\bin\Debug\net6.0\GradeBook.pdb
