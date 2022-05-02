@@ -10,12 +10,12 @@ public class TypeTests
    public void Test1()
    {
       var x = GetInt();
-      SetInt(x);
+      SetInt(ref x);
 
-      Assert.Equal(3, x);
+      Assert.Equal(42, x);
    }
 
-   private void SetInt(int z)
+   private void SetInt(ref int z)
    {
       z = 42;
    }
