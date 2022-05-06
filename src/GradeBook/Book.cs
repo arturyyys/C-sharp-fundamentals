@@ -57,8 +57,7 @@ namespace GradeBook
          {
             if (grades[index] == 42.1)
             {
-               break; // jump out of a loop
-               // continue; // skip specific condition and continues with the next iteration in the loop
+               break;
             }
             result.Low = Math.Min(grades[index], result.Low);
             result.High = Math.Max(grades[index], result.High);

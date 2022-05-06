@@ -36,7 +36,6 @@
             }
 
          }
-         // code
 
          var stats = book.GetStatistics();
 
