@@ -4,7 +4,6 @@ namespace GradeBook
    {
       public Book(string name)
       {
-         category = "";
          grades = new List<double>();
          Name = name;
       }
@@ -101,6 +100,6 @@ namespace GradeBook
          private set;
       }
 
-      readonly string category = "Science";
+      public const string CATEGORY = "Science";
    }
 }
