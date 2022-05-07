@@ -26,6 +26,7 @@ public class TypeTests
       count++;
       return message.ToLower();
    }
+   
 
    string ReturnMessage(string message)
    {
