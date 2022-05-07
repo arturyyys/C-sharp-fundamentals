@@ -38,7 +38,6 @@
          }
 
          var stats = book.GetStatistics();
-         book.Name = "";
 
          Console.WriteLine($"For the book name {book.Name}");
          Console.WriteLine($"The lowest grade is {stats.Low}");
