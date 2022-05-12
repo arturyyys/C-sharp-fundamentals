@@ -47,6 +47,7 @@ namespace GradeBook
       {
          var writer = File.AppendText($"{Name}.txt");
          writer.WriteLine(grade);
+         writer.Close();
       }
 
       public override Statistics GetStatistics()
