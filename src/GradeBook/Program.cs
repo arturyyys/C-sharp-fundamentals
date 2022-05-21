@@ -5,7 +5,7 @@
    {
       static void Main(string[] args)
       {
-         IBook book = new DiskBook("Scott's Grade Book");
+         Book book = new DiskBook("Scott's Grade Book");
          book.GradeAdded += OnGradeAdded;
 
          EnterGrades(book);
@@ -17,10 +17,6 @@
          Console.WriteLine($"The highest grade is {stats.High}");
          Console.WriteLine($"The average grade is {stats.Average:N1}");
          Console.WriteLine($"The letter grade is {stats.Letter}");
-      }
-
-      private static void EnterGrades(IBook book)
-      {
       }
 
       private static void EnterGrades(Book book)

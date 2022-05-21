@@ -77,30 +77,8 @@ namespace GradeBook
    {
       public InMemoryBook(string name) : base(name)
       {
-         grades = new List<double>();
+         // grades = new List<double>();
          Name = name;
-      }
-
-      public void AddGrade(char letter)
-      {
-         switch (letter)
-         {
-            case 'A':
-               AddGrade(90);
-               break;
-
-            case 'B':
-               AddGrade(80);
-               break;
-
-            case 'C':
-               AddGrade(70);
-               break;
-
-            default:
-               AddGrade(0);
-               break;
-         }
       }
 
       public override void AddGrade(double grade)
@@ -125,17 +103,8 @@ namespace GradeBook
       {
          var result = new Statistics();
 
-         var book = new InMemoryBook("Scott's Grade Book");
-         book.AddGrade(89.1);
-         book.AddGrade(90.5);
-         book.AddGrade(77.5);
-
          for (var index = 0; index < grades.Count; index += 1)
          {
-            if (grades[index] == 42.1)
-            {
-               break;
-            }
             result.Add(grades[index]);
          };
 
@@ -143,12 +112,6 @@ namespace GradeBook
       }
 
       private List<double> grades;
-
-      public string Name
-      {
-         get;
-         set;
-      }
 
       public const string CATEGORY = "Science";
    }
